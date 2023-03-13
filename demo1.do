@@ -151,3 +151,5 @@ replace incoming = r(p99) if incoming > r(p99)	//右侧截尾处理
 gen log_incoming = log(incoming + 1) //加1后取自然对数，使得取对数之后的结果大于等于0，因为In0=0没有任何意义，In1=0
 sum log_incoming
 
+cls
+reg cognition livingstatus 
