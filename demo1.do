@@ -152,4 +152,4 @@ gen log_incoming = log(incoming + 1) //加1后取自然对数，使得取对数�
 sum log_incoming
 
 cls
-reg cognition livingstatus 
+reg cognition livingstatus i.isdisease i.drinking i.exercise i.activitylimit i.smoking i.gender
